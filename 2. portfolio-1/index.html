@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="header">Siddhartha Pratap Singh</div>
+    <div class="center">
+        <div class="article">
+            <div class="title">3D Renderer</div>
+            <div class="subtitle">By Siddhartha Pratap Singh</div>
+            <hr />
+            <div class="text">
+                A basic OpenGL Renderer written in C++.
+
+                Currently, it is hosted on
+                Github at https://github.com/sps1112/opengl-project.
+
+                The work done on
+                the renderer includes:-
+                A basic primitive system to easily render primitives like Cube and Rects. The file reader is custom and
+                the
+                custom file extensions similar to .obj format.
+                Blinn-Phong Shading with Gamma Correction implemented. Updated from previous Phong
+                Shading. The Renderer is set up to later include PBR.
+                A movable Camera
+                system with Orthographic and Perspective cameras with easily
+                configurable properties. Integrating ASSIMP to help with loading
+                pre-made 3D Assets. Also tweak the integration to Render Blender
+                Scenes exported as .obj files. A Shader and Light Class to set up
+                multiple lights in a Scene. The lights are all dynamic with easily
+                accessible properties. This helps in easily debugging lighting effects
+                in shaders. GUI with ImGui to debug the scene and alter the properties
+                of Scene Objects and Renderer. The GUI is abstracted to instantiate
+                multiple windows with configurable properties. Rendering to a
+                Framebuffer. This helps in implementing post-processing effects to the
+                final render. Third-Party libraries that are used in the project
+                include GLFW, GLM, Assimp, ImGui. The current plan for the renderer is
+                to:- Implement a Scene System with UI to easily create new Scenes Add
+                Objects to that scene in the form of 2D objects, 3D objects, Camera
+                and Lights. Edit Predefined properties of said objects such as color
+                and World Position. These would help the user in creating their own
+                scenes and easily debug effect on pre-defined template scenes.
+            </div>
+            <hr />
+            <div class="end">Back to Home</div>
+        </div>
+    </div>
+    <div class="footer">Custom Website</div>
+</body>
+
+</html>
